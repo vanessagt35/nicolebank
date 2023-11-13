@@ -1,0 +1,46 @@
+/* Estilo geral da página */
+* {
+    box-sizing: border-box; /* definir o tamanho dos elementos incluindo as bordas e o espaçamento interno */
+    margin: 0; /* remover a margem padrão dos elementos */
+    padding: 0; /* remover o espaçamento interno padrão dos elementos */
+  }
+  
+  /* Estilo do elemento main */
+  main {
+    width: 80%; /* largura do elemento */
+    max-width: 800px; /* largura máxima do elemento */
+    margin: 20px auto; /* centralizar o elemento e adicionar uma margem externa de 20px */
+    border: 2px solid black; /* borda do elemento */
+    padding: 20px; /* espaçamento interno do elemento */
+  }
+  
+  /* Estilo do elemento h1 */
+  h1 {
+    font-size: 30px; /* tamanho da fonte */
+    text-align: center; /* alinhamento do texto */
+  }
+  
+  /* Estilo do elemento p */
+  p {
+    font-size: 18px; /* tamanho da fonte */
+    margin-bottom: 10px; /* margem inferior do elemento */
+  }
+  
+  /* Estilo do elemento span */
+  span {
+    font-weight: bold; /* peso da fonte */
+  }
+  
+  /* Estilo do elemento input */
+  input {
+    width: 100px; /* largura do elemento */
+  }
+  
+  /* Estilo do elemento button */
+  button {
+    width: 100px; /* largura do elemento */
+    height: 30px; /* altura do elemento */
+    margin: 10px; /* margem externa do elemento */
+    cursor: pointer; /* forma do cursor */
+  }
+  
